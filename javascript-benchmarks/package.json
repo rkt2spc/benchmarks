@@ -1,0 +1,30 @@
+{
+  "name": "javascript-benchmarks",
+  "version": "1.0.0",
+  "description": "Benchmarking javascript functionalities",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache --ignore-path .gitignore '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketspacer/javascript-benchmarks.git"
+  },
+  "author": "Tuan Nguyen <nmtuan.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocketspacer/javascript-benchmarks/issues"
+  },
+  "homepage": "https://github.com/rocketspacer/javascript-benchmarks#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "microtime": "^2.1.7",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "jest": "^22.4.3"
+  }
+}
