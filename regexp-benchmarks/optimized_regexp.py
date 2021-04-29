@@ -111,7 +111,7 @@ def benchmark_optimized_regexp():
     start = timer()
     for i in range(len(messages)):
         safe_message = regexp.sub(lambda m: '*' * len(m.group(0)), messages[i])
-        print('[', i + 1, '/', len(messages), ']', messages[i], ' => ', safe_message)
+        # print('[', i + 1, '/', len(messages), ']', messages[i], ' => ', safe_message)
 
     end = timer()
     print('Finished with', len(messages), 'messages of dictionary size', len(badwords), 'in', end - start, 'seconds')
