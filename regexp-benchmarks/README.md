@@ -6,5 +6,5 @@ Benchmark regular expression
 $ brew install python3
 $ pip3 install -r requirements.txt
 $ make bench_regexp
-$ make bench_trie
+$ make bench_trie_regexp
 ```
